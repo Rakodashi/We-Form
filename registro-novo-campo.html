@@ -19,17 +19,40 @@
     </aside>
 
     <main>
-      <h2>Cadastre sua <span>entidade</span> ou acesse dados <span>de parceiras</span></h2>
+
+      <header>
+        <a href="/index.html">
+          <i class="fa-solid fa-angle-left"></i>
+        </a>
+        <h2>Campo de <span>atuação</span></h2>
+      </header>
+
+
+      <form>
+        
+        <label for="input-field">Pesquisar atuação</label>
+        <div class="select-div">
+          <select id="input-field">
+              <option value=""></option>
+              <option value="abrigo">Abrigo de Animais</option>
+              <option value="centro">Centro de alimentação</option>
+              <option value="creche">Creche infantil</option>
+          </select>
+        </div>
+
+        <h3>OU</h3>
+        <h3><span>Cadastre novo campo de atuação</span></h3>
+
+        <label for="input-name">Campo de atuação</label>
+        <input type="text" id="input-name">
+
+      </form>
 
       <div class="actions">
-        <a href="/cadastro-entidade.html">Cadastrar entidade</a>
-        <a href="/listagem-entidade.html">Ver entidades cadastradas</a>
+        <a href="">Cadastrar</a>
       </div>
 
-      <footer>
-        <p>Sua entidade não se enquadra nos campos de atuação disponíveis?</p>
-        <a href="/registro-novo-campo.html">Registrar novo campo de atuação</a>
-      </footer>
+      
 
     </main>
 
