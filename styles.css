@@ -197,7 +197,7 @@ main form span{
 }
 
 .listagem h1 {
-  margin: 5rem;
+  margin: 2rem 0;
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
   font-weight: 500;
@@ -208,4 +208,38 @@ main form span{
 
 .listagem h1 span {
   color: #FF5678;
+}
+
+main #listas {
+  margin: 4rem 0;
+}
+
+main #lista {
+  display: flex;
+  margin: 2rem 0;
+  
+  align-items: center;
+}
+
+main #lista a {
+  text-decoration: none;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+main #lista h3 {
+  color: #35E6E9;
+  padding: .5rem 2rem;
+  border: 1.5px solid #35E6E9;
+  font-weight: 400;
+  border-radius: 12px;
+  margin: 0 2.5rem;
+}
+
+main #lista #extra {
+  color: #FF5678;
+  text-decoration: underline;
 }
